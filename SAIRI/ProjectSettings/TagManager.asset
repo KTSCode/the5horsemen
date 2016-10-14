@@ -7,6 +7,8 @@ TagManager:
   - Door
   - Airlock
   - Enemy
+  - Ship
+  - Background
   layers:
   - Default
   - TransparentFX
@@ -16,8 +18,8 @@ TagManager:
   - UI
   - 
   - 
+  - background
   - Blocking
-  - 
   - 
   - 
   - 
@@ -44,12 +46,12 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
-  - name: Floor
+  - name: Background
     uniqueID: 3623179029
     locked: 0
-  - name: Items
+  - name: Ship
     uniqueID: 3763381035
     locked: 0
-  - name: Units
+  - name: items
     uniqueID: 3099936481
     locked: 0
